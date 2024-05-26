@@ -3,3 +3,4 @@ services:
     image: apache/kafka:3.7.0
     ports:
       - "9092:9092"
+    container_name: kafka_container
